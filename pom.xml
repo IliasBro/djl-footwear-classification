@@ -17,10 +17,12 @@
 	</properties>
 	<dependencies>
 
+
+<!-- PyTorch Engine -->
 		<dependency>
-			<groupId>ai.djl.mxnet</groupId>
-			<artifactId>mxnet-model-zoo</artifactId>
-			<version>0.31.0</version>
+   			<groupId>ai.djl.pytorch</groupId>
+    		<artifactId>pytorch-engine</artifactId>
+    		<version>0.31.0</version>
 		</dependency>
 
 		<dependency>
